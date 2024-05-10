@@ -30,9 +30,15 @@ int main()
         cout << endl
              << "Would you like to generate another password? (y/n): ";
         cin >> pwGenQuestion;
+
         if (pwGenQuestion == 'n' || pwGenQuestion == 'N')
         {
             generatePw = false;
+        } else if (pwGenQuestion == 'y' || pwGenQuestion == 'Y') {
+            generatePw = true;
+        } else {
+            cout << "Invalid input. Exiting program." << endl;
+            return 1;
         }
     } while (generatePw);
 
