@@ -7,7 +7,7 @@ using namespace std;
 
 static const char alphanumeric[] =
     "01234567890123456789"
-    "!@#$%!!@#$%&*!@#$%&*!@#$%^&*@!@#$%&*"
+    "!@#$%!!@#$%&*!@#$%&*!@#$%&*@"
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     "abcdefghijklmnopqrstuvwxyz";
 
